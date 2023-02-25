@@ -1,0 +1,13 @@
+[package]
+name = "mimext"
+version = "0.1.0"
+edition = "2021"
+description = "Zero-dependency & no-std media type <-> file extension conversion"
+authors = ["picoHz <picoHz@outlook.com>"]
+keywords = ["media-type", "media-types", "mime", "file-extensions"]
+categories = ["network-programming", "web-programming", "email"]
+repository = "https://github.com/picoHz/mimext"
+homepage = "https://github.com/picoHz/mimext"
+documentation = "https://docs.rs/mimext"
+license = "MIT"
+readme = "README.md"
