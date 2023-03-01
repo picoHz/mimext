@@ -1,6 +1,6 @@
 [package]
 name = "mimext"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Zero-dependency & no-std media type <-> file extension conversion"
 authors = ["picoHz <picoHz@outlook.com>"]
