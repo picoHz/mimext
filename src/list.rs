@@ -143,6 +143,14 @@ const LIST: &[(&[&str], &[&str])] = &[
     (&["weba"], &["audio/webm"]),
     (&["m3u8", "m3u"], &["audio/x-mpegurl"]),
     //
+    (
+        &["ttf"],
+        &[
+            "font/ttf",
+            "application/x-font-ttf",
+            "application/font-sfnt",
+        ],
+    ),
     (&["otf"], &["font/otf", "application/font-sfnt"]),
     (&["woff"], &["font/woff", "application/font-woff"]),
     (&["woff2"], &["font/woff2"]),
@@ -155,6 +163,11 @@ const LIST: &[(&[&str], &[&str])] = &[
     (&["svg", "svgz"], &["image/svg+xml"]),
     (&["tiff", "tif"], &["image/tiff"]),
     (&["webp"], &["image/webp"]),
+    (&["heic"], &["image/heic"]),
+    (&["heics"], &["image/heic-sequence"]),
+    (&["heif"], &["image/heif"]),
+    (&["heifs"], &["image/heif-sequence"]),
+    (&["ico"], &["image/vnd.microsoft.icon", "image/x-icon"]),
     //
     (&["coffee"], &["text/coffeescript"]),
     (&["css"], &["text/css"]),
